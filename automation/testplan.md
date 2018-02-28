@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ## 1. Intro Tutorial
 As a user I would like to know more about the app after opening it for the first time
 ### Acceptance criteria
@@ -9,4 +7,4 @@ As a user I would like to know more about the app after opening it for the first
 
 
 ## 2. 
->>>>>>> ba0348455cfdc29c87c41d67e0b7317a1b0389ba
+
