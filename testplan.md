@@ -1,5 +1,5 @@
 
-#Task 1
+# Task 1
 
 ## 1.1 Home screen
 *As a user I want to see the balance of my accounts and manage expences and incomes. I want to be able to add new expence/income by selecting specific category.*
