@@ -32,7 +32,7 @@ As a user I would like to manage/create new categories for my spendings, to mana
 ## 4. Accounts Transfer 
 As a user that have several acounts (i.e. cash, VISA, PayPal, AMEX) I would like to have the option to transfer/move founds between acounts
 ### Acceptance criteria:
-* By tapping on "two arrows" icon on top right corner, will open new screen. In this screen user will be able to transfer founds between his existing accounts
+* By tapping on "two arrows" icon on top right corner, will open new screen. In this "New transfer" screen, user will be able to transfer founds between the existing accounts.
 
 
 ## 5. Intro tutorial
