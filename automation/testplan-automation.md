@@ -14,3 +14,7 @@
 * Password will be requested twice, and should match in both cases.
 * User will be asked for the password, everytime when accesing app acount details;
 
+
+## 3. Spending page
+*As a user I would like to be able to insert my spendings without accesing the acount details. Most important categories of spendings should be visible on the main screen. User should should be able to select a category and to insert amount*
+
