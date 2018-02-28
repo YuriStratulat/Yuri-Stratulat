@@ -10,7 +10,7 @@
 
 ## 2. Password
 *As a user I would like to have my account in a secure place, and protected by a password*
-* User will be asked for a password while using the app for the first time;
+* User will be asked ti insert a password while using the app for the first time;
 * Password will be requested twice, and should match in both cases.
-* User will be asked for the password, everytime when accesing app settings;
+* User will be asked for the password, everytime when accesing app acount details;
 
