@@ -1,5 +1,5 @@
 
-## 1. Home screen
+## 1. Home screen !!!
 *As a user I want to see the balance of my accounts and manage expences and incomes. I want to be able to add new expence/income by selecting specific category.*
 ### Acceptance criteria:
 * User will see the balance displayed in the "Home Screen";
