@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+=======
+## 1. Intro Tutorial
+As a user I would like to know more about the app after opening it for the first time
+### Acceptance criteria
+* User will see intro tutorial after opening the app for the first time (no cache);
+* User can swipe left/right to see more info about the intro;
+* User should not see intro tutorial if the app was oppened already once. Only the splash screen will be visible every next time user opens the app.
+
+
+## 2. 
+>>>>>>> ba0348455cfdc29c87c41d67e0b7317a1b0389ba
