@@ -10,11 +10,11 @@
 
 ## 2. Password
 *As a user I would like to have my account in a secure place, and protected by a password*
-* User will be asked ti insert a password while using the app for the first time;
+* User will be asked to insert a password while using the app for the first time;
 * Password will be requested twice, and should match in both cases.
 * User will be asked for the password, everytime when accesing app acount details;
 
 
 ## 3. Spending page
-*As a user I would like to be able to insert my spendings without accesing the acount details. Most important categories of spendings should be visible on the main screen. User should should be able to select a category and to insert amount*
-
+*As a user I would like to be able to insert my spendings without accesing the acount details. Most important categories of spendings should be visible on the main screen. User should be able to select a category and to insert amount*
+* User can select the expense category type and insert the amount;
