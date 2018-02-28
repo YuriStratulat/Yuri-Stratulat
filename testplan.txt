@@ -1,12 +1,12 @@
-Intro tutorial
+# Intro tutorial
 
-Home screen
+# Home screen
 Expenses
 Income
 
-Left side menu
+# Left side menu
 selecting accounts
 
-Right side menu
+# Right side menu
 
-Accounts Transfer 
+# Accounts Transfer 
