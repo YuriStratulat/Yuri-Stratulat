@@ -1,7 +1,7 @@
 
 # Task 1
 
-## 1.1 Home screen
+## 1 Home screen
 *As a user I want to see the balance of my accounts and manage expences and incomes. I want to be able to add new expence/income by selecting specific category.*
 ### Acceptance criteria:
 * User will see the balance displayed in the "Home Screen";
@@ -13,8 +13,8 @@
 #### *Edge cases*
 * Pie chart should be greyed out in case user has no expenses;
  
- 
-## 1.2 Left side menu (Time Frame Overview - TFO)
+
+## 2 Left side menu (Time Frame Overview - TFO)
 *As a user I want to be able to have an overview of my spendings for a specific range of time. I would like to have an option to switch between accounts and select a time frame overview for each account separately.*
 ### Acceptance criteria:
 * By tapping on the left side burger menu or swiping from the left side of the screen, user will see time frame options for different accounts;
@@ -24,7 +24,7 @@
 * By selecting the account and desired time frame, user will be redirected to the home screen. Home screen will display the balance for previously selected time frame.
 
 
-## 1.3 Actionbar menu
+## 3 Actionbar menu
 *As a user I would like to manage/create new categories for my spendings, to manage my accounts, to have more currencies for spendings/incomes and to have more options over the app (i.e. change app language, currency, set password and to know more about the app)* 
 ### Acceptance criteria:
 * Tapping on the bullets of the top right side screen, or swiping from the right of the screen, will bring actionbar menu. Actionbar menu will show next available options: Categories, Acounts, Currencies, Settings;
@@ -34,13 +34,13 @@
 * By tapping on "Settings" option, user will be able to manage his account by changing app language, currency, set password for the app or to enable "Pro" account.
  
 
-## 1.4 Accounts Transfer 
+## 4 Accounts Transfer 
 *As a user that have several acounts (i.e. cash, VISA, PayPal, AMEX) I would like to have the option to transfer/move founds between acounts*
 ### Acceptance criteria:
 * By tapping on "two arrows" icon on top right corner, will open new screen. In this "New transfer" screen, user will be able to transfer founds between the existing accounts.
 
 
-## 1.5 Intro tutorial
+## 5 Intro tutorial
 *As a user I want to see an Intro Tutorial aftern opening the app for the first time.*
 ### Acceptance criteria:
 * User should see intro tutorial after installing the app for the first time (no cache);
