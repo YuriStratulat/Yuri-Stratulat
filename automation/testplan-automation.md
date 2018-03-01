@@ -4,7 +4,7 @@
 *As a user I would like to know more about the app, an info tutorial should be displayed at the start up of the app*
 ### Acceptance criteria
 * User will see intro tutorial after opening the app for the first time (no cache);
-* User can swipe left/right to see more info about the intro;
+* User can swipe only left/right to see more info about the intro;
 * Bulet points will show how many screens of tutorial user have;
 * Swiping left on the last screen, user will be asked to insert a password;
 * User should not see intro tutorial if the app was oppened already once. Only the splash screen will be visible every next time user opens the app.
@@ -16,6 +16,9 @@
 * User will be asked to insert a password while using the app for the first time. Password will be requested twice, and should match in both cases;
 * User will be asked for the password, everytime when accesing acount details (hamburger menu).
 
+#### *Edge cases*
+* Acces will be denied if user will insert two different passwords.
+
 
 ## 3. Spending page
 *As a user I would like to be able to insert my spendings without accesing the acount details. Most important categories of spendings should be visible on the main screen. User should be able to select a category, leave a remark and insert amount*
@@ -23,8 +26,10 @@
 * User can swipe to the left over the spending categories and will see more categories available;
 * User can swipe to the left over the amount field to add some remarks for the record;
 * User can select the expense category type and insert the amount;
-* Being in the Spending page, user will swipe down, tap on hamburger menu, or shaking the app. One of the actions will open acount details by asking the password first. 
+* Being in the Spending page, user will swipe down or tap on hamburger menu. One of the actions will open acount details by requesting the password first. 
 
+#### *Edge cases* 
+* Shaking the app will open acount details by requesting the password
 
 ## 4. Acount details (hamburger menu)
 *As a user I would like to have more control over my account, to have a better overview of my spendings and to see more accurate expenses filtered by categories/tags, months, years, pie charts*
@@ -59,6 +64,22 @@
 
 #### Sync to server
 * After signing in, user will be able to sync data with the server;
+
+#### Settings 
+* User will be able to Sign up/log in with an email;
+* User can set a expense limit monthly by setting up a 5 digit number;
+* User is able to change background color when he will reach the limit or passes the limit;
+* User can change account book name (default will be CoCoin);
+* User will be able to change the password;
+* User can sort expence categories/tags;
+* User can turn on/off pictures for tags in account book;
+* User can turn on/off doughnut-shape pie chart;
+* User can view the current version of the app. By Tapping on it user can check if there are available updates.
+
+#### Edge cases
+* User tries to sign up/log in being offline;
+* User changes password by inserting wrong old password;
+
 
 
 

@@ -7,11 +7,13 @@
 * User will see the balance displayed in the "Home Screen";
 * A list of expences categories will be displayed on home screen. By selecting one of the category, user will proceed directly to insert amount of expence for this specific category; 
 * User will see a Pie chart of expenses, that will divided by categories. 
-* Pie chart should be greyed out in case user has no expenses;
 * User will see 2 main options available: "Expense" and "Income". By tapping on it user would be redirected accordingly, to insert the desired amount of expense/income;
 * User will be able to swipe up/down to see more detailed list of expences/incomes.
- 
 
+#### *Edge cases*
+* Pie chart should be greyed out in case user has no expenses;
+ 
+ 
 ## 1.2 Left side menu (Time Frame Overview - TFO)
 *As a user I want to be able to have an overview of my spendings for a specific range of time. I would like to have an option to switch between accounts and select a time frame overview for each account separately.*
 ### Acceptance criteria:
