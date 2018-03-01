@@ -29,22 +29,36 @@
 ## 4. Acount details (hamburger menu)
 *As a user I would like to have more control over my account, to have a better overview of my spendings and to see more accurate expenses filtered by categories/tags, months, years, pie charts*
 ### Acceptance criteria
+
+#### Account details
 * In the main page of the account details, user will see a Pie chart that will display expenses presets for the specific range of time (i.e. today, yesterday, this week, last week, this month, last month, this year, last year). Those options are available by swiping left/right;
-* User can swipe up/down to see all expences in selected range of time. By tapping on one of the expence, user can see more details abou it;
-* User can tap on the blocks icon to see all expenses for the selected range of time;
+* User can swipe up/down to see all expences for the specific range of time. By tapping on one of the expence, user can see more details abou it;
+* User can tap on the blocks icon to see all expenses for specific range of time;
 
 #### Custom view 
-* User can check all the expenses in a specific range of time, by selecting "Custon view" option;
+* By selecting "Custon view" option, user can manually select range of time for all expenses;
+
 
 #### Tag view
-* User can see all expenses based on category/tag. By tapping on a tag, user can see all expenses related to it;
+* User can see all expenses based on category/tag by selecting "Tag view" option . Tapping on a tag, user can see all expenses related to it;
+* Swiping the left menu, user can see all spending categories;
 
 #### Months view
 * User should be able to see all monthly expanses by selecting "Months view". 
-* Swiping the screen from the left side, user will see all expenses and records on a mothly basis;
+* Swiping the left menu, user will see all expenses and records on a mothly basis;
 
 #### List view
-* User will be able to  
+* User will be able to view all records as a list, after selecting "List view" option;
+* Swiping the record on the left, will allow to edit it;
+* Swiping the record on the right, the record will be deleted;
+* Using the search icon, will allow to find specific redords;
+* Swiping the left menu, will allow to use some filters to find the record;
+
+#### Expense report
+* User will be able to generate reports based on defined time range (i.e. month, year;
+
+#### Sync to server
+* After signing in, user will be able to sync data with the server;
 
 
 
