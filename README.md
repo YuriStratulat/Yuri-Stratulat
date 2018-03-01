@@ -68,7 +68,7 @@ Give an example
 
 ## Versioning
 
-*```
+```
 Give an example
 ```
 
