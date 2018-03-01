@@ -1,7 +1,7 @@
 # Task 2
 
 ## 1. Intro Tutorial
-*As a user I would like to know more about the app, an info tutorial should be displayed at the start up of the app*
+*As a user I would like to know more about the product, an info tutorial should be displayed at the start up of the app*
 ### Acceptance criteria
 * User will see intro tutorial after opening the app for the first time (no cache);
 * User can swipe only left/right to see more info about the intro;
@@ -11,13 +11,10 @@
 
 
 ## 2. Password
-*As a user I would like to have my account in a secure place, and protected by a password*
+*As a user I would like to have my account in a secure place, not accesible by everyone, and protected by a password*
 ### Acceptance criteria
-* User will be asked to insert a password while using the app for the first time. Password will be requested twice, and should match in both cases;
+* User will be asked to insert a password while using the app for the first time. Password will be requested twice, and should match in both cases. Acces will be denied if user will insert two different passwords;
 * User will be asked for the password, everytime when accesing acount details (hamburger menu).
-
-#### *Edge cases*
-* Acces will be denied if user will insert two different passwords.
 
 
 ## 3. Spending page
@@ -31,6 +28,7 @@
 #### *Edge cases* 
 * Shaking the app will open acount details by requesting the password
 
+
 ## 4. Acount details (hamburger menu)
 *As a user I would like to have more control over my account, to have a better overview of my spendings and to see more accurate expenses filtered by categories/tags, months, years, pie charts*
 ### Acceptance criteria
@@ -42,7 +40,6 @@
 
 #### Custom view 
 * By selecting "Custon view" option, user can manually select range of time for all expenses;
-
 
 #### Tag view
 * User can see all expenses based on category/tag by selecting "Tag view" option . Tapping on a tag, user can see all expenses related to it;
@@ -65,6 +62,10 @@
 #### Sync to server
 * After signing in, user will be able to sync data with the server;
 
+#### *Edge case*
+* User taps on "Sync to server" option. User will not be able to sync his content while being logged out. Warning message will be displayed
+
+
 #### Settings 
 * User will be able to Sign up/log in with an email;
 * User can set a expense limit monthly by setting up a 5 digit number;
@@ -76,15 +77,22 @@
 * User can turn on/off doughnut-shape pie chart;
 * User can view the current version of the app. By Tapping on it user can check if there are available updates.
 
-#### Edge cases
-* User tries to sign up/log in being offline;
-* User changes password by inserting wrong old password;
+#### *Edge cases*
+* User tries to sign up/log in while he is offline. Warning message shows up;
+* User changes password by inserting wrong old password. Warning message shows up;
+* User taps on image placeholder to change the image. Warning message shows up, user needs to be loged in.
 
+#### Help
+* User will be able to see more information about the app by selecting "Help" option
 
+#### Feedback
+* By tapping on "Feedback" option, user will be able to send a message, than will contain up to 400 characters, as a feedback
 
+#### *Edge cases*
+* User tries to send and empty feedback or a message that contains more than 400 characters. A pop up message shows up, with warning message in it. 
 
-
-
+#### About
+* By selecting "About" option, user can see people who contributed to the project
 
 
 
